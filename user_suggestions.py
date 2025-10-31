@@ -93,9 +93,9 @@ def generate_overall_summary(all_feedback_data: dict, api_key: str) -> str:
 def get_suggestions(questions_and_scores):
     # **IMPORTANT: REPLACE THIS WITH YOUR ACTUAL API KEY**
     # NOTE: I am keeping the provided example key but stressing it MUST be replaced/valid.
-    GEMINI_API_KEY = "AIzaSyCJXffND9oU7wyM19U5YvhMnauXvs9zyzM" 
+    GEMINI_API_KEY = "Your api key here" 
 
-    if GEMINI_API_KEY == "AIzaSyCJXffND9oU7wyM19U5YvhMnauXvs9zyzM":
+    if GEMINI_API_KEY == "your api key here":
          # In a real environment, this would check if the key is valid.
          # For demonstration, we assume the user will replace it or handle auth elsewhere.
          pass 
